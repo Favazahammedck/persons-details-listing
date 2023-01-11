@@ -1,0 +1,12 @@
+.comingSoonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comingSoonWrapper h1{
+    color: rgba(128, 128, 128, 0.233);
+    margin-top: 30vh;
+    font-size: 70px;
+    font-weight: 900;
+}
+

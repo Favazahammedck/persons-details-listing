@@ -1,0 +1,393 @@
+.profilewrapper {
+  display: flex;
+  padding: 60px;
+  margin-left: 50px;
+}
+.profilecontent {
+  height: 86vh;
+  padding-left: 50px;
+}
+.profilemain {
+  padding-top: 75px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.allPagesSection {
+  height: 87vh;
+  background-image: linear-gradient(#345fc8, #702cc7);
+  width: 205px;
+  border-radius: 23px;
+}
+
+.pagesLink {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.356);
+  padding: 5px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.pagesLink img{
+  height: 45px;
+  width: 25px;
+  border-right: 1px solid white;
+}
+.arrowButton{
+  visibility: hidden;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  width: 60px;
+  margin-left: 110px;
+
+}
+.firstarrow{
+  margin-left: 105px;
+  border-right: 1px solid white;
+
+}
+.thirdarrow{
+  margin-left: 100px;
+  
+}
+.fourthArrow{
+  margin-left: 114px;
+  
+}
+.pagesLink p {
+  color: rgba(255, 255, 255, 0.377);
+  font-size: 14px;
+}
+
+.linksWrapper {
+  padding-top: 190px;
+}
+.imageWithName {
+  display: flex;
+}
+.imageWithName img {
+  height: 33px;
+  width: 33px;
+  border-radius: 100%;
+  padding: 10px;
+}
+.profileAndName {
+  display: flex;
+  margin-left: 700px;
+}
+.head {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+}
+.pageHead {
+  width: 60px;
+  height: 50px;
+}
+.pageHead h3 {
+  color: rgb(110, 110, 110);
+}
+.personFullDetailsLeftSection {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.personFullDetailsLeftSection img {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  margin-top: 23px;
+}
+.profileBigimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  text-align: center;
+}
+.boldText {
+  color: rgba(65, 65, 65, 0.829);
+  font-weight: 900;
+  font-size: 17px;
+}
+.leftSectionWrapper {
+  line-height: 12px;
+}
+.leftSectionWrapper p {
+  color: rgba(128, 128, 128, 0.863);
+}
+.rightSectionForDetails {
+  width: 80%;
+  height: 74vh;
+  border-left: 1px solid rgba(128, 128, 128, 0.315);
+  margin-left: 70px;
+  margin-top: 30px;
+  text-align: start;
+}
+#mapImage {
+  height: 280px;
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: -10px;
+}
+.rightSideDetails {
+  width: 300px;
+  margin-left: 60px;
+}
+.latitude {
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+}
+.latitude span {
+  font-size: 13px;
+  color: gray;
+}
+.latitude p {
+  color: black;
+  font-size: 12px;
+  font-weight: 900;
+}
+.longitude {
+  margin-left: 20px;
+}
+hr {
+  height: 1px;
+  background-color: rgba(194, 194, 194, 0.151);
+}
+/* style for profile popup */
+.popupMain {
+  height: 360px;
+  width: 280px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 20px #8888881f;
+  line-height: 5px;
+  margin-left: 45%;
+  position: fixed;
+}
+
+.popupMain img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.popupTop {
+  padding-top: 30px;
+  text-align: center;
+}
+.otherPersons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.popupBottom {
+  height: 87px;
+  overflow: scroll;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.otherPersons img {
+  height: 30px;
+  width: 30px;
+}
+.popupMain hr {
+  width: 80%;
+  background-color: rgba(240, 240, 240, 0);
+  opacity: 1;
+}
+
+.otherPersons h4 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d65150;
+  color: rgba(255, 255, 255, 0.993);
+  height: 35px;
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 60px;
+}
+.otherPersons p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.websiteAdrs {
+  color: rgba(128, 128, 128, 0.61);
+}
+/* style for chat list */
+.chatMain {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  margin-top: -75px;
+  z-index: 9999;
+}
+
+.chatBox {
+  height: 397px;
+  width: 230px;
+  background-color: #2c64c8;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #2c64c8;
+  margin-left: 2%;
+  overflow: scroll;
+  white-space: nowrap;
+}
+.chatMessageScreen {
+  /* visibility:hidden; */
+  height: 299px;
+  width: 230px;
+  background-color: #2c64c8;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #2c64c8;
+  margin-left: 54%;
+  margin-top: -255px;
+}
+
+.chatHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c64c8;
+  color: white;
+  width: 230px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.chatHead p,
+i {
+  color: white;
+  margin-left: 17px;
+}
+.chatHead i {
+  font-size: 25px;
+}
+.chatList {
+  background-color: white;
+  height: 342px;
+  width: 230px;
+}
+.chatMessages {
+  background-color: white;
+  height: 244px;
+  width: 230px;
+}
+.uparrow {
+  margin-left: 50px;
+}
+.chatMessagePersonName {
+  font-size: 12px;
+}
+.chatMessageScreenPersonIcon {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.second {
+  margin-left: 5px;
+}
+
+.fa-xmark:before,
+.fa-angle-up:before,
+.fa-angle-down:before {
+  font-size: 19px;
+  margin-right: 4px;
+  cursor: pointer;
+
+}
+.allPersonsList {
+  display: flex;
+  align-items: center;
+  width: 230px;
+  height: 45px;
+  cursor: pointer;
+}
+.allPersonsListIcon {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+.onlineOrOfflineStatus {
+  margin-left: 50px;
+  color: green;
+}
+.allPersonsListName {
+  margin-left: 13px;
+  font-size: 10px;
+  width: 98px;
+}
+.messages {
+  height: 100px;
+  width: 75%;
+  margin-left: 12px;
+  padding-top: 5px;
+}
+.message {
+  background-color: #f2f1f1;
+  height: 38px;
+  line-height: 20px;
+  font-size: 13px;
+  padding-left: 7px;
+  margin-top: 10px;
+}
+.time {
+  font-size: 11px;
+  text-align: center;
+}
+.time p {
+  color: rgb(190, 190, 190);
+}
+.messageSingleLine {
+  margin-top: 30px;
+}
+.messageBottom {
+  margin-top: 8px;
+  text-align: right;
+  margin-left: 80px;
+  width: 60%;
+}
+.allMessages {
+  height: 220px;
+  overflow: scroll;
+}
+.inputChat {
+  height: 50px;
+  border-top: 1px solid rgba(180, 180, 180, 0.486);
+  cursor: pointer;
+
+}
+.inputBoxForChat {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+  height: 20px;
+  border-left: 1px solid rgba(128, 128, 128, 0.411);
+  margin-left: 10px;
+  margin-top: 3px;
+  cursor: pointer;
+
+}
+.inputBoxForChat i {
+  font-size: 12px;
+  color: #2c64c8;
+  margin-top: 3px;
+  cursor: pointer;
+
+}
+.sample{
+  visibility: visible;
+}
+.sampleone{
+  visibility: hidden;
+}
